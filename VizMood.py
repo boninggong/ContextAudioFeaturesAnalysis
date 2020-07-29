@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from math import pi
 
-# Visualizes each average audio feature for the mood dimensions
+# Visualizes each average audio feature for the mood dimension
 AUDIO_FEATURES = ["#songs", "acousticness", "danceability", "energy", "instrumentalness", "key", "liveness", "loudness", "speechiness", "tempo", "valence"]
 moods = ["happy", "sad"]
 wanted_features = ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "loudness", "speechiness", "tempo", "valence"]

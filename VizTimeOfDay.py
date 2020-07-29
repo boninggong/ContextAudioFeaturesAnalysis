@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from math import pi
 
-# data to plot
+# Visualizes each average audio feature for the time of day dimension
 AUDIO_FEATURES = ["#songs", "acousticness", "danceability", "energy", "instrumentalness", "key", "liveness", "loudness", "speechiness", "tempo", "valence"]
 time_of_day = ["morning", "afternoon", "evening", "night"]
 wanted_features = ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "loudness", "speechiness", "tempo", "valence"]

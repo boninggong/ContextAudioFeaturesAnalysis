@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from math import pi
 
-# Visualizes each average audio feature for the activity dimensions
+# Visualizes each average audio feature for the activity dimension
 n_groups = 11
 AUDIO_FEATURES = ["#songs", "acousticness", "danceability", "energy", "instrumentalness", "key", "liveness", "loudness", "speechiness", "tempo", "valence"]
 activites = ["running", "walking", "sleeping", "relaxing"]
